@@ -30,7 +30,7 @@ const Sidebar = () => {
           <FaEnvelope />
         </NavLink>
       </nav>
-      <ul>
+      <ul className="sidebar-socials__links">
         <li>
           <a
             href="https://github.com/Qreamville"
