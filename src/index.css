@@ -5,7 +5,7 @@
 @import "animate.css";
 
 @font-face {
-  font-family: "Helvetica Nue";
+  font-family: "Helvetica Neue";
   src: url("./assets/fonts/helvetica-neu.ttf") format("ttf");
 }
 @font-face {
@@ -19,4 +19,26 @@
 
 :root {
   --primary-color: #ffd700;
+  --text-color: #444;
+  --bg-color: #022c43;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Helvetica Neue" sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  display: block;
+  overflow: hidden;
+}
+
+input,
+textarea {
+  font-family: "Helvetica Neue" sans-serif;
 }
