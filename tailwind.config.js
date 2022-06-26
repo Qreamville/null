@@ -9,8 +9,10 @@ module.exports = {
       xl: "1200px",
     },
     extend: {
-      colors: {},
+      colors: {
+        gold_yellow: "#ffd700",
+      },
     },
   },
   plugins: [],
-};
+}
