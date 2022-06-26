@@ -1,0 +1,69 @@
+.sidebar {
+  background-color: #040717;
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  min-height: 500px;
+}
+
+.sidebar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  position: absolute;
+  height: 210px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sidebar-nav a {
+  font-size: 3rem;
+  display: block;
+  position: relative;
+}
+
+.sidebar-nav a svg {
+  transition: all 0.3s ease-out;
+}
+
+.sidebar-nav a:hover svg {
+  opacity: 0;
+}
+
+.sidebar-nav a:hover::after {
+  opacity: 1;
+}
+
+.sidebar-nav a::after {
+  content: "";
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+.sidebar-nav a:first-child::after {
+  content: "Home";
+}
+
+.sidebar-nav a:nth-child(2)::after {
+  content: "About";
+}
+
+.sidebar-nav a:last-child::after {
+  content: "Contact";
+}
+
+.active {
+  color: #ffd700;
+}
