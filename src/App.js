@@ -1,15 +1,14 @@
-import { Route, Routes } from "react-router-dom"
-import { Home, Sidebar } from "./components"
+import { Route, Routes } from "react-router-dom";
+import { Layout } from "./components";
 
 function App() {
   return (
     <>
-      <Sidebar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Layout />} />
       </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
