@@ -7,12 +7,15 @@ const Home = () => {
     <div className="section-container home-page">
       <div className="text-zone">
         <h1 className="text-white text-5xl">
-          Hi, <br /> I'm Balikis Oyeleye
+          Hi, 👋 <br /> I'm Balikis Oyeleye
         </h1>
         <h2>Frontend Developer</h2>
-        <Link to="/contact" className="flat-button">
-          Contact Me
-        </Link>
+        <div className="flex flex-row gap-6">
+          <Link to="/contact" className="home-contact">
+            Contact Me
+          </Link>
+          <button className="home-contact">Download CV</button>
+        </div>
       </div>
     </div>
   );
