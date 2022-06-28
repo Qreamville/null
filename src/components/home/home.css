@@ -25,7 +25,7 @@
   left: -5px;
 }
 .home .home-text__zone h1::after {
-  content: "<h1/>";
+  content: "</h1>";
   font-family: "La Belle Aurore";
   color: var(--primary-color);
   opacity: 0.25;
@@ -44,7 +44,8 @@
   animation: fadeIn 0.5s 1.7s backwards;
 }
 
-.home-contact {
+.home-contact,
+.home-download {
   color: var(--primary-color);
   font-size: 13px;
   font-weight: 600;
@@ -55,7 +56,8 @@
   white-space: nowrap;
 }
 
-.home-contact:hover {
+.home-contact:hover,
+.home-download:hover {
   color: #000;
   background-color: var(--primary-color);
 }
