@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import pdf from "../../assets/Resume.pdf";
 import "./home.css";
 
 const Home = () => {
@@ -14,7 +15,9 @@ const Home = () => {
           <Link to="/contact" className="home-contact">
             Contact Me
           </Link>
-          <button className="home-download">Download CV</button>
+          <a className="home-download" href={pdf} download>
+            Download CV
+          </a>
         </div>
       </div>
     </div>
