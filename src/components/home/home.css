@@ -24,6 +24,7 @@
   top: -40px;
   left: -5px;
 }
+
 .home .home-text__zone h1::after {
   content: "</h1>";
   font-family: "La Belle Aurore";
