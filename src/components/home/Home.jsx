@@ -4,8 +4,8 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <div className="section-container home-page">
-      <div className="text-zone">
+    <div className="home section-container">
+      <div className="home-text__zone">
         <h1 className="text-white text-5xl">
           Hi, 👋 <br /> I'm Balikis Oyeleye
         </h1>
@@ -14,7 +14,7 @@ const Home = () => {
           <Link to="/contact" className="home-contact">
             Contact Me
           </Link>
-          <button className="home-contact">Download CV</button>
+          <button className="home-download">Download CV</button>
         </div>
       </div>
     </div>
