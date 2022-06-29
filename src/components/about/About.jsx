@@ -8,7 +8,7 @@ const About = () => {
         <h1>ABOUT ME</h1>
         <p>
           Balikis Oyeleye (Pronounced as Ba-Li-Kiss) is a Civil Engineer
-          transitioning into web development. She is a self-taught Frontend
+          transitioning into Web development. She is a self-taught Frontend
           Developer specializing in building web application and responsive
           websites.
         </p>
