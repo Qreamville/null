@@ -10,7 +10,7 @@ const Home = () => {
         <h1 className="text-white text-5xl">
           Hi, 👋 <br /> I'm Balikis Oyeleye
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Frontend Developer / ReactJs Developer</h2>
         <div className="flex flex-row gap-6">
           <Link to="/contact" className="home-contact">
             Contact Me
