@@ -1,25 +1,33 @@
 import React from "react";
+import Loader from "react-loaders";
 import "./about.css";
 
 const About = () => {
   return (
-    <div className="about section-container">
-      <div className="about-text__zone">
-        <h1>ABOUT ME</h1>
-        <p>
-          Balikis Oyeleye (Pronounced as Ba-Li-Kiss) is a Civil Engineer
-          transitioning into Web development. She is a self-taught Frontend
-          Developer specializing in building web application and responsive
-          websites.
-        </p>
-        <p>
-          She is an optimistic, enthusiastic and motivated Junior Frontend
-          Developer that is seeking an opportunity to contribute to Institutions
-          by implementing ideas, concepts and methodologies learned thereby
-          adding values to the organization.
-        </p>
+    <>
+      <div className="about section-container">
+        <div className="about-text__zone">
+          <h1>About Me</h1>
+          <p className="mb-8">
+            Balikis Oyeleye ( Pronounced as Ba-li-kiss O-ye-le-ye ) is a Civil
+            Engineer transitioning into Web development. She is a self-taught
+            Frontend Developer specializing in building web application and
+            responsive websites.
+          </p>
+          <p className="mb-8">
+            She is an optimistic, enthusiastic and motivated Junior Frontend
+            Developer that is seeking an opportunity to contribute to
+            Institutions by implementing ideas, concepts and methodologies
+            learned thereby adding values to the organization.
+          </p>
+          <p>
+            I'm passionate about building beautiful and functional applications.
+            I build projects using HTML, CSS, Typescript, React etc.
+          </p>
+        </div>
       </div>
-    </div>
+      <Loader type="pacman" />
+    </>
   );
 };
 
