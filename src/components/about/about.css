@@ -60,7 +60,7 @@
   animation-delay: 5s;
 }
 
-/* .about .about-text__zone p::before {
+.about .about-text__zone p:nth-of-type(1):before {
   content: "<p>";
   font-family: "La Belle Aurore";
   color: var(--primary-color);
@@ -71,13 +71,13 @@
   left: -5px;
 }
 
-.about .about-text__zone p::after {
+.about .about-text__zone p:nth-of-type(1):after {
   content: "</p>";
   font-family: "La Belle Aurore";
   color: var(--primary-color);
   opacity: 0.25;
   font-size: 20px;
   position: absolute;
-  bottom: -60px;
+  bottom: -40px;
   left: -5px;
-} */
+}
