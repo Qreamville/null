@@ -9,10 +9,10 @@ const About = () => {
         <div className="about-text__zone">
           <h1>About Me</h1>
           <p className="mb-8">
-            Balikis Oyeleye ( Pronounced as Ba-li-kiss O-ye-le-ye ) is a Civil
-            Engineer transitioning into Web development. She is a self-taught
-            Frontend Developer specializing in building web application and
-            responsive websites.
+            Balikis Oyeleye ( Pronounced as Ba-lee-kiss O-ye-le-ye ) is a Civil
+            Engineering Student transitioning into Web development. She is a
+            self-taught Frontend Developer specializing in building web
+            application and responsive websites.
           </p>
           <p className="mb-8">
             She is an optimistic, enthusiastic and motivated Junior Frontend
