@@ -1,0 +1,104 @@
+.contact-text__zone {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60%;
+  vertical-align: middle;
+  display: table-cell;
+  max-height: 90%;
+}
+
+.contact-text__zone h1 {
+  font-size: 53px;
+  font-family: "Coolvetica", sans-serif;
+  color: var(--primary-color);
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 40px;
+  left: 10px;
+}
+
+.contact .contact-text__zone h1::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore";
+  color: var(--primary-color);
+  opacity: 0.25;
+  font-size: 20px;
+  position: absolute;
+  top: -20px;
+  left: -5px;
+}
+
+.contact .contact-text__zone h1::after {
+  content: "</h1>";
+  font-family: "La Belle Aurore";
+  color: var(--primary-color);
+  opacity: 0.25;
+  font-size: 20px;
+  position: absolute;
+  bottom: -30px;
+  left: -5px;
+}
+
+.contact-form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact-form::before {
+  content: "<form>";
+  font-family: "La Belle Aurore";
+  color: var(--primary-color);
+  opacity: 0.25;
+  font-size: 20px;
+  position: absolute;
+  top: 95px;
+  left: -5px;
+}
+
+.contact-form::after {
+  content: "</form>";
+  font-family: "La Belle Aurore";
+  color: var(--primary-color);
+  opacity: 0.25;
+  font-size: 20px;
+  position: absolute;
+  bottom: -40px;
+  left: -5px;
+}
+
+.contact-form li {
+  display: block;
+  position: relative;
+  opacity: 0;
+  animation: fadeInUp 1.5s 2.5s forwards;
+}
+
+input[type="text"],
+input[type="email"] {
+  background-color: #040717;
+  height: 50px;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+textarea {
+  background-color: #040717;
+  min-height: 150px;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.contact-btn {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  border: 1px solid var(--primary-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.contact-btn:hover {
+  background-color: var(--primary-color);
+  color: #040717;
+}
