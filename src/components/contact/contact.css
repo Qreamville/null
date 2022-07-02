@@ -85,7 +85,8 @@ input[type="email"] {
 
 textarea {
   background-color: #040717;
-  min-height: 150px;
+  min-height: 200px;
+  max-height: 200px;
   font-size: 1.2rem;
   padding: 1rem;
 }
