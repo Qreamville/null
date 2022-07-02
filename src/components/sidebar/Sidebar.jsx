@@ -7,10 +7,39 @@ import {
   FaGithub,
   FaTwitter,
   FaLinkedin,
+  FaCog,
 } from "react-icons/fa";
+import { VscSymbolProperty } from "react-icons/vsc";
 import "./sidebar.css";
 
 const Sidebar = () => {
+  // Array of Navigation Links
+  const links = [
+    { to: "/", class_name: "sidebar-nav__home", icon: <FaHome /> },
+    { to: "/about", class_name: "sidebar-nav__about", icon: <FaUser /> },
+    { to: "/skills", class_name: "sidebar-nav__skills", icon: <FaCog /> },
+    {
+      to: "/projects",
+      class_name: "sidebar-nav__project",
+      icon: <VscSymbolProperty />,
+    },
+    {
+      to: "/contact",
+      class_name: "sidebar-nav__contact",
+      icon: <FaEnvelope />,
+    },
+  ];
+
+  // Mapping of Array of Navigation Links
+
+  const navLinks = links.map((link, _idx) => {
+    return (
+      <NavLink exact="true" to={link.to} className={link.class_name} key={_idx}>
+        {link.icon}
+      </NavLink>
+    );
+  });
+
   return (
     <aside className="sidebar">
       <Link to="/" className="sidebar-brand">
@@ -19,17 +48,7 @@ const Sidebar = () => {
           Balikis oyeleye
         </span>
       </Link>
-      <nav className="sidebar-nav text-center w-full">
-        <NavLink exact="true" to="/" className="sidebar-nav__home">
-          <FaHome />
-        </NavLink>
-        <NavLink exact="true" to="/about" className="sidebar-nav__about">
-          <FaUser />
-        </NavLink>
-        <NavLink exact="true" to="/contact" className="sidebar-nav__contact">
-          <FaEnvelope />
-        </NavLink>
-      </nav>
+      <nav className="sidebar-nav text-center w-full">{navLinks}</nav>
       <ul className="sidebar-socials__links">
         <li>
           <a
