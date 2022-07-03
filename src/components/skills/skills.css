@@ -1,0 +1,42 @@
+.skills-text__zone {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60%;
+  vertical-align: middle;
+  display: table-cell;
+  max-height: 90%;
+}
+
+.skills-text__zone h1 {
+  font-size: 53px;
+  font-family: "Coolvetica", sans-serif;
+  color: var(--primary-color);
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 40px;
+  left: 10px;
+}
+
+.skills .skills-text__zone h1::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore";
+  color: var(--primary-color);
+  opacity: 0.25;
+  font-size: 20px;
+  position: absolute;
+  top: -20px;
+  left: -5px;
+}
+
+.skills .skills-text__zone h1::after {
+  content: "</h1>";
+  font-family: "La Belle Aurore";
+  color: var(--primary-color);
+  opacity: 0.25;
+  font-size: 20px;
+  position: absolute;
+  bottom: -30px;
+  left: -5px;
+}
