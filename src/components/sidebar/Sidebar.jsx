@@ -10,6 +10,7 @@ import {
   FaCog,
 } from "react-icons/fa";
 import { VscSymbolProperty } from "react-icons/vsc";
+import { SiCodewars } from "react-icons/si";
 import "./sidebar.css";
 
 const Sidebar = () => {
@@ -75,6 +76,15 @@ const Sidebar = () => {
             rel="noreferrer"
           >
             <FaLinkedin />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.codewars.com/users/Qreamville"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiCodewars />
           </a>
         </li>
       </ul>
