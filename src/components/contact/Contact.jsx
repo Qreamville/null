@@ -80,7 +80,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      ;
       <Loader type="pacman" />
     </>
   );
