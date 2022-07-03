@@ -40,3 +40,8 @@
   bottom: -30px;
   left: -5px;
 }
+
+.skills-icons img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
