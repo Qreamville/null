@@ -41,6 +41,10 @@
   left: -5px;
 }
 
+.skills-icons div {
+  width: 12rem;
+}
+
 .skills-icons img:hover {
   transform: scale(1.2);
   cursor: pointer;

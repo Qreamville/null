@@ -18,7 +18,7 @@ const Skills = () => {
       <div className="skills section-container">
         <div className="skills-text__zone">
           <h1>Technical Skills</h1>
-          <div className="skills-icons grid grid-cols-4 gap-x-10 gap-y-16">
+          <div className="skills-icons grid grid-cols-4 gap-x-10 gap-y-10">
             <div className="flex flex-col justify-center items-center gap-4 relative">
               <img src={Html} alt="html" className="w-full h-auto" />
               <h4 className="text-2xl font-semibold">Html5</h4>
