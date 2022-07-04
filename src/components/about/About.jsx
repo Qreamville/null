@@ -22,7 +22,7 @@ const About = () => {
           </p>
           <p>
             I'm passionate about building beautiful and functional applications.
-            I build projects using HTML, CSS, Typescript, React etc.
+            I build projects using HTML, CSS, Javascript, React etc.
           </p>
         </div>
       </div>
