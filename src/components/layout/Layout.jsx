@@ -1,12 +1,10 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Sidebar from "../sidebar/Sidebar";
 import "./layout.css";
 
 const Layout = () => {
   return (
     <div className="App">
-      <Sidebar />
       <div className="page">
         <span className="tags top-tag_html">&lt;html&gt;</span>
         <span className="tags top-tag">&lt;body&gt;</span>

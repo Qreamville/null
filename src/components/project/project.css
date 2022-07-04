@@ -1,0 +1,55 @@
+.projects-text__zone {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70%;
+  max-height: 90%;
+}
+
+.projects-text__zone h1 {
+  font-size: 53px;
+  font-family: "Coolvetica", sans-serif;
+  color: var(--primary-color);
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 40px;
+  left: 10px;
+}
+
+.projects .projects-text__zone h1::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore";
+  color: var(--primary-color);
+  opacity: 0.25;
+  font-size: 20px;
+  position: absolute;
+  top: -20px;
+  left: -5px;
+}
+
+.projects .projects-text__zone h1::after {
+  content: "</h1>";
+  font-family: "La Belle Aurore";
+  color: var(--primary-color);
+  opacity: 0.25;
+  font-size: 20px;
+  position: absolute;
+  bottom: -30px;
+  left: -5px;
+}
+
+.project-stack h5 {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+.project-links a {
+  border: 1px solid var(--primary-color);
+  padding: 5px 10px;
+}
+
+.project-links a:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}

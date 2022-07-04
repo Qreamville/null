@@ -4,8 +4,6 @@
   top: 50%;
   transform: translateY(-50%);
   width: 60%;
-  vertical-align: middle;
-  display: table-cell;
   max-height: 90%;
 }
 

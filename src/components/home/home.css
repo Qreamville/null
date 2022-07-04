@@ -1,11 +1,10 @@
 .home .home-text__zone {
   position: absolute;
-  left: 15%;
+  left: 20%;
   top: 50%;
   transform: translateY(-50%);
-  width: 50%;
+  width: 60%;
   max-height: 90%;
-  padding-bottom: 30px;
 }
 
 .home .home-text__zone h1 {
