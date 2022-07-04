@@ -1,11 +1,11 @@
 .sidebar {
   background-color: #040717;
   width: 80px;
-  height: 100%;
-  position: absolute;
+  height: 100vh;
+  position: fixed;
   top: 0;
+  bottom: 0;
   z-index: 1000;
-  min-height: 500px;
 }
 
 .sidebar-nav {
