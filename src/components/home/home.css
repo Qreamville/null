@@ -61,3 +61,10 @@
   color: #000;
   background-color: var(--primary-color);
 }
+
+@media screen and (max-width: 768px) {
+  .home .home-text__zone {
+    left: 0%;
+    width: 100%;
+  }
+}

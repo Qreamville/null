@@ -4,8 +4,8 @@ import { Home, About, Contact, Project, Skills, Sidebar, Navbar } from "./compon
 function App() {
   return (
     <>
-      <Sidebar />
-      {/* <Navbar /> */}
+      {/* <Sidebar /> */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
