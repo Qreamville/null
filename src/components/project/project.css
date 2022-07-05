@@ -53,3 +53,9 @@
   background-color: var(--primary-color);
   color: var(--bg-color);
 }
+
+@media screen and (max-width: 992px) {
+  .projects-section {
+    grid-template-columns: 1fr;
+  }
+}

@@ -9,7 +9,7 @@ const Project = () => {
       <div className="projects section-container">
         <div className="projects-text__zone">
           <h1>My Projects</h1>
-          <div className="grid grid-cols-2 gap-x-8 gap-y-14 mb-28">
+          <div className="projects-section grid grid-cols-2 gap-x-8 gap-y-14 mb-28">
             {data.map((proj) => {
               return (
                 <div className="project" key={proj.id}>
