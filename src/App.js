@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { Home, About, Contact, Project, Skills, Sidebar } from "./components";
+import { Home, About, Contact, Project, Skills, Sidebar, Navbar } from "./components";
 
 function App() {
   return (
     <>
-      <Sidebar />
+      {/* <Sidebar /> */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
